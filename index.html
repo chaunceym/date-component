@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>日期组件</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="my-datepicker">
+      <input type="text" class="datepicker" />
+      <div class="ui-datepicker-wrapper">
+        <div class="ui-datepicker-header">
+          <a href="#" class="ui-datepicker-btn ui-datepicker-prev-btn"> < </a>
+          <span class="ui-datepicker-current-month">2020-8</span>
+          <a href="#" class="ui-datepicker-btn ui-datepicker-next-btn"> > </a>
+        </div>
+        <div class="ui-datepicker-body">
+          <table>
+            <thead>
+              <th>一</th>
+              <th>二</th>
+              <th>三</th>
+              <th>四</th>
+              <th>五</th>
+              <th>六</th>
+              <th>日</th>
+            </thead>
+            <tbody id="tBody">
+              <!-- render -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="./convert.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
